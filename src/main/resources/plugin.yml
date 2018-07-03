@@ -1,0 +1,10 @@
+main: club.without.dereku.playerpinprotect.PlayerPinProtect
+name: PlayerPinProtect
+version: ${project.version}
+authors: [Dereku]
+commands:
+  playerpinprotect:
+    usage: /<command>
+    aliases: [ppp, pin]
+    permission: playerpinprotect.command.playerpinprotect
+    default: op
